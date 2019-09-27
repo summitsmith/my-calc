@@ -1,0 +1,36 @@
+.calculator{
+    width: 200px;
+    height: 270px;
+    border: solid red 1px;
+  
+}
+.calcrow{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.calcbutton{
+    background-color: rgb(225, 237, 241);
+    font:white;
+    flex-basis: 24.5%;
+    padding: 10px;
+    
+}
+.zero{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+.double{
+    flex-basis: 49.4%;
+}
+.tripple{
+    flex-basis: 74.5%;
+}
+.grey{
+    background-color: coral;
+}
